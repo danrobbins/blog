@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.12/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'edit',
+1 verbose cli   'wintersmith' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 error Error: ENOENT, lstat '/Users/paulcpederson/Documents/Blog-Deploy/node_modules/wintersmith'
+5 error If you need help, you may report this log at:
+5 error     <http://github.com/isaacs/npm/issues>
+5 error or email it to:
+5 error     <npm-@googlegroups.com>
+6 error System Darwin 12.5.0
+7 error command "/usr/local/Cellar/node/0.10.12/bin/node" "/usr/local/bin/npm" "edit" "wintersmith"
+8 error cwd /Users/paulcpederson/Documents/Blog-Deploy
+9 error node -v v0.10.12
+10 error npm -v 1.2.32
+11 error path /Users/paulcpederson/Documents/Blog-Deploy/node_modules/wintersmith
+12 error code ENOENT
+13 error errno 34
+14 verbose exit [ 34, true ]
